@@ -1,0 +1,149 @@
+ 
+Stanley Chu
+Arturo Corro
+
+Assignement 2//Sorted-List
+-------------------------------
+**Note**
+All inputs are already inside main.c.
+The Test engulfs the already coded test cases as well as the execution of main.c + Sorted-List.c
+
+1. Test case for integers (Integer List)
+
+  Input: Allocate Nodes for each of the int numbers in Input.
+
+Original:
+32
+21
+60
+13
+100
+25
+
+Expected Output:
+100
+60
+32
+25
+21
+13
+
+The flow of numbers as per requested by Submission guidelines is top down, Decending order.
+
+-------------------------------
+
+2. Test case for Doubles (double list)
+  
+  Input: Allocate Nodes for each of the double numbers in Input.
+
+Original:
+0.5
+0.7
+0.0
+0
+3.1415
+1.75
+
+Expected Output:
+3.1415
+1.75
+0.70
+0.50
+0.0
+0
+
+The flow of numbers as per requested by Submission guidelines is top down, Decending order.
+
+--------------------------------
+
+3. Test Remove function on existing data input/structure (Remove item from Double list)
+
+  In this part, we will remove a specific double using pointer manipulation 
+  in the previous list we have just sorted.
+
+Previous Output:
+3.1415
+1.75
+0.70
+0.50
+0.0
+0
+
+ Choose to Destroy 0.50;
+
+Expected Output:
+
+3.1415
+1.75
+0.70
+0.0
+0
+The flow of numbers as per requested by Submission guidelines is top down, Decending order.
+Furthermore, in testplan, we chose to remove 0.50 because it is in the middle after the sorted 
+list is finished. This demonstrates that the loops inside moving the pointer, destroying the desired value
+ and while still maintaining a sorted output is correct.
+
+--------------------------------
+
+
+4. Test Case for Strings/Char (String list)
+
+  Input: Allocate Nodes for each of the string numbers in Input.
+
+  **Note: sorting of strings are not compared by length, rather by the strings overall ASCII value through
+    cmpstring function in the library**
+
+Original:
+fox
+jumped
+over
+lazy
+doggy
+FOX
+
+**Note: Using "fox" and "FOX" are different values in ASCII, lower case "fox" > "FOX"**
+
+Expected Output:
+over
+lazy
+jumped
+fox
+doggy
+FOX
+
+The flow of numbers as per requested by Submission guidelines is top down, Decending order. But as we mentioned
+because the string sort is based on ASCII values, its Decending order for ASCII values. Hence, decending string sort
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
